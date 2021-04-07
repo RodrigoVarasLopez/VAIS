@@ -3,7 +3,7 @@ from flask_pymongo import pymongo, ObjectId
 #Permite interactuar el servidor de react con el server de python
 from flask_cors import CORS
 
-CONNECTION_STRING = "mongodb+srv://vas:CenA,.-3218@cluster0.poxub.mongodb.net/<dbname>?retryWrites=true&w=majority"
+CONNECTION_STRING = "mongodb+srv://vas:Passs@cluster0.poxub.mongodb.net/<dbname>?retryWrites=true&w=majority"
 client = pymongo.MongoClient(CONNECTION_STRING)
 db = client.get_database('flask_mongodb_atlas')
 user_collection = pymongo.collection.Collection(db, 'user_collection')
